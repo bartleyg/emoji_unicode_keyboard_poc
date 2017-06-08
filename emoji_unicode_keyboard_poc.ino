@@ -61,21 +61,21 @@ void loop() {
     Keyboard.press('f');Keyboard.release('f');Keyboard.press('e');Keyboard.release('e');
     Keyboard.release(KEY_RIGHT_ALT);
   }
-/*  
+ 
   if (button2.fallingEdge()) {
     //U+2764
     Keyboard.press(KEY_RIGHT_ALT);
     Keyboard.press('2');Keyboard.release('2');Keyboard.press('7');Keyboard.release('7');
     Keyboard.press('6');Keyboard.release('6');Keyboard.press('4');Keyboard.release('4');
     Keyboard.release(KEY_RIGHT_ALT);    
-    /* //⚡ = U+26A1
+    //⚡ = U+26A1
     Keyboard.press(KEY_RIGHT_ALT);
     Keyboard.press('2');Keyboard.release('2');Keyboard.press('6');Keyboard.release('6');
     Keyboard.press('a');Keyboard.release('a');Keyboard.press('1');Keyboard.release('1');
     Keyboard.release(KEY_RIGHT_ALT);
-    */
-  //}
-/*
+    
+  }
+
   if (button3.fallingEdge()) {
     //🇹🇬= TG = Opt + D83C DDF9 + D83C DDEC
     Keyboard.press(KEY_RIGHT_ALT);
@@ -89,5 +89,5 @@ void loop() {
     Keyboard.press('e');Keyboard.release('e');Keyboard.press('c');Keyboard.release('c');
     Keyboard.release(KEY_RIGHT_ALT);
   }
-*/
+
 }
